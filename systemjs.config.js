@@ -4,7 +4,6 @@
   var map = {
     'app':                        'app', // 'dist',
     'rxjs':                       'node_modules/rxjs',
-    'angular2-in-memory-web-api': 'node_modules/angular2-in-memory-web-api',
     '@angular':                   'node_modules/@angular'
   };
 
@@ -22,8 +21,7 @@
     '@angular/platform-browser',
     '@angular/platform-browser-dynamic',
     '@angular/router',
-    '@angular/testing',
-    '@angular/upgrade',
+    '@angular/testing'
   ];
 
   // add package entries for angular packages in the form '@angular/common': { main: 'index.js', defaultExtension: 'js' }
